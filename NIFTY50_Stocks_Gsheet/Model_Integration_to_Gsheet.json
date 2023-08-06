@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "chromatic-pride-392908",
+  "private_key_id": "ccf371b70a0fca57d8b7e99f5ff9fee546c05388",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQ79e2Cqa2PwBb\nfTyXT403/1fy/l4pgEUX6cODhNHKK+DKu0F+eal9o0vabks7xqJUszcoiN3dHwM+\nyC9hiXfAVrXawjkjRlA0ebuR5METfdlwRBggFIdDcFR6xtgF7JW/Dwt1ji3qTjjd\n0P80TXFqsZWLs/3ObXaTpNnN2Z+vo62CNDuenDRLqPN9cG5XtNLuR2JPB7RvY8eV\nlIMVqtawwFs9CNYqVq5uaNLzkGEgaiXQanbjNkW20IHJVBdvuEswbk5rvoFBHzfb\nfY1V3XNmRN+df7jyyIsbQStNIuC2oTwER+zQPpKPecFjqLqDvSYVsibdTfFFn1Xw\n1qjd+CWLAgMBAAECggEAGzveChhNRCBpdkd9i6cIj5Wc1o2CbwTptrkXok5iRz1g\nc2elQlklBnUZKzWfUF+eIBE+05CIM+UAbJscABVfGZaRfEYTi3PKXVnka2ETAJEc\nuvIooFqLIhpo3Vsgu1g9uRVgH1o0eXryR4fedFr67UPqKEKNdezuo4aN4Ja8YTm1\nV1e8mBi7XW/1vtpBAZ/av0uf6INFXaXK4aQA9+HfLgPwg2HIxWhH9yuXNRAQiJdW\nro6xRDYx/0sGnocaRT9UyVtrCQal881Ga2PxYew/rz2kCPmPt5SCXMYtI4VzXs+u\neI45KEV6QtecbhnHmexvTQmtQjkdl/PHqqH7Snw80QKBgQDFL+fkMpJWNh46y3un\n0cG09FwKmYLVjvjPXgVIc8JJCWEBKd6UwdJLq/IcrkDpMZPzq+UkTHwaNGzMyFcB\nWfilGqQfVVim6D4ynqf7xzZwaspJb1qd59++Y5UyuM+95L/WgitwaMdvm9+rMf2k\nyC0tEFsB5Kxw7617BInJMrK50QKBgQC8KmdI4kmDJtdwCGe30WI2qNN2eSKVyTRG\nQin8nMGVgPk/oA2NxVYyRX4S3ArNVDGWOybVBzmZYHZQiCvv9kMn978DKZzuuJBQ\nnQE1V5yyxSbYRl83RTy5W4P5ypoG7TdciyEjXfum87AN8mzhqeQz/O6SdLhUtasE\nELf6R2xkmwKBgAfcqh1CGu2PCNOFS2/cgCGr4IOXrUzAf5EdCY7i9qsc0Z5PQg2i\nULUtrOCR3gquLFz5zJAO8J/G2VOs5TMrmCtVDZgmOfulpN010DLMtZHz4A7ffrhv\nB0+6/rbgAYBrv25ZEExSESmVCGz1+Ev6ozp5vXcs2+dA1yThgHDiMZgRAoGAM6eU\nWP693YIhLEEyb9TMGGM6QdC5PNNSRWNOcWl6/xa71cqTTfL5Wa2YEYdUc8+EGVC9\ntUdZeZBwimUHYsWA5Azv4+ddjG8gNvES7tjRTIYwxrhy1RJtvBiyXzVOGU6vnvkW\nrMXVGpzVHM8LMtvXqKnruErQe3ivrNsGFm/bArcCgYAMhFT7ulV0XDuU7eAJ25dm\nrXTHtYSade0e2IRipeRw2KBSt+XtQHztvPq20fT4TtDIXI6xwwNYEXr/JFL875wE\neNUlRxrzWAQnBdvJjVdj5oiFXT5v0/T0E+AKGUM7Lq/0E1dBHGjhXsmtiGgyrtoJ\nJ1kjV9SWdaq4ykq7jGYU8A==\n-----END PRIVATE KEY-----\n",
+  "client_email": "mlmodel@chromatic-pride-392908.iam.gserviceaccount.com",
+  "client_id": "101862528125045872612",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mlmodel%40chromatic-pride-392908.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
