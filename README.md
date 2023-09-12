@@ -54,28 +54,28 @@ This project provides a powerful tool for investors to make informed decisions a
 ![Project_flow](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/6d74fff4-43b5-45ee-8b61-853ad6cca3aa)
 
 ## Preprocessing
+
 **Web Scraping:**  
-Meticulously extracted a rich historical dataset spanning four years of NIFTY50 stock information, sourcing data exclusively from official and reputable websites, 
-notably "https://in.investing.com/" and "https://www.nseindia.com/". 
-This rigorous data collection process ensures the utmost reliability and credibility of the dataset.
+- Data sourced exclusively from official and reputable websites, including "https://in.investing.com/" and "https://www.nseindia.com/".
+- Four years of NIFTY50 stock information extracted meticulously to ensure dataset reliability and credibility.
 
 **Null and Noise Handling:** 
-Conducted a thorough assessment to identify and address null values in the dataset. Also, implemented noise reduction techniques to ensure data accuracy.
+- Thorough assessment conducted to identify and address null values in the dataset.
+- Implemented noise reduction techniques to enhance data accuracy, ensuring a cleaner dataset.
 
 **Unwavering Data Type Uniformity:**   
-Enforced a meticulous standardization of data types across the entire dataset, eliminating any discrepancies or irregularities. 
-This meticulous data type consistency not only facilitates seamless data processing but also lays the groundwork for precise and error-free analytical insights.
+- Meticulous standardization of data types applied consistently across the entire dataset.
+- Eliminated discrepancies and irregularities in data types, promoting seamless data processing and accurate analytical insights.
 
-**Data Size and Structure Assessment:**  
-Conducted a thorough evaluation of the size and shape of each data table, providing an insightful understanding of the dataset's intricate structure. 
-This meticulous examination serves as a critical foundation for deciphering the composition and nuances of the data, empowering comprehensive analysis.
+**Data Size and Structure Assessment:** 
+- Comprehensive evaluation performed on the size and shape of each data table.
+- Provides an insightful understanding of the dataset's intricate structure, laying the foundation for comprehensive data analysis.
 
-**Strategic Data Compilation and Filtering:**   
-Aggregated and organized the extensive NIFTY-50 stock data by their respective stock names, enabling effortless data filtration and retrieval. 
-This strategic data compilation approach allows for precise selection and extraction of data pertinent to users' preferences for predicting 
-expected profit or loss based on specific buying and selling dates.
+**Strategic Data Compilation and Filtering:**  
+- Aggregated and organized NIFTY-50 stock data by stock names for easy data filtration and retrieval.
+- Enables precise selection and extraction of data relevant to users' preference of stock for predicting profit or loss based on specific buying and selling dates.
 
-* By executing these preprocessing steps, the dataset was refined, cleaned, and made ready for further analysis, establishing a solid foundation for accurate prediction.
+By executing these preprocessing steps, the dataset was refined, cleaned, and made ready for further analysis, establishing a solid foundation for accurate prediction.
 
 ## Model Building
 ![Predicted_vs_Close_price](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/08d2f533-7df1-4771-8def-99e8da4dd39d)
@@ -83,19 +83,24 @@ expected profit or loss based on specific buying and selling dates.
 - Accurate predictions assist investors in making informed decisions.
 - The model is trained on historical stock data to ensure reliability.
 - It offers a user-friendly interface for inputting stock details and obtaining predictions.
-- This project showcases the application of AI in real-world financial analysis.
+- This project showcases the application of Artificial Intelligence and Machine Learning in real-world financial analysis.
 
 
 ## Google Sheet Integration
 ![Google_sheet](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/8a9510cc-a764-4ef4-a42f-3add49d1e7a8)
 
+- Integrated our machine learning model directly into Google Sheets for effortless stock analysis.
+- It allows users to input Stock name, quantity, buying  and selling dates.
+- Our model will instantly calculates whether they would make a profit or incur a loss based on historical data and predictions.
+
 ## Web Page
 ![Web_page](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/ec8227c6-db89-4556-8dbc-172498beea97)
-- The web page allows users to input stock details, quantity, buying, and selling dates for personalized predictions.
-- User-friendly interface for inputting stock details, quantity, buying, and selling dates.
+- Also build a user-friendly interface and integrated our model to it.
+- It allows users to input Stock name, quantity, buying and selling dates.
+- Our model will predict whether the users would make a profit or incur a loss based on historical data and predictions.
 - Accurate predictions aid investors in making informed decisions.
 - Validation through training on historical stock data ensures reliability.
-- Practical application of AI in financial analysis, optimizing investments.
+- It ensures the practical application of AI in financial analysis, optimizing investments.
 
 ## Model Application
 ![Stock_input](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/527cec33-aa08-430e-a7f2-e0acf90fa701)
@@ -110,7 +115,7 @@ expected profit or loss based on specific buying and selling dates.
 - Validating Existing Strategies  
 - Future Applications
   
-![Prediction_Graph](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/f7febc3d-8e69-4f68-9f74-dde868db5b7e)
+![Prediction_Graph](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/0d951a80-db9b-44f7-b310-bcdd463ed730)
 - Our model will leverages the power of data and machine learning to empower investors and traders with valuable insights, fostering data-driven decision-making and enhancing overall performance in the financial sector.
 
 ## Future Plan
@@ -118,15 +123,18 @@ expected profit or loss based on specific buying and selling dates.
 * Fetching the live data and automate the model on the server.
 * If it works fine then deploying over the server so that users can use it.
 
-## Model Limitation
-**Limited data:**
-Utilizing only 4 years of historical data might not capture long-term trends and patterns that could significantly influence stock prices.  
-**Overfitting risk:**
-Polynomial regression may lead to overfitting due to its sensitivity and small fluctuations in the data.  
-**Limited input features:**
-Relying solely on close price, volume, and date might not encompass all relevant factors impacting stock performance.  
-**Market complexity:**
-The stock market is influenced by multifaceted factors, including geopolitical events and macroeconomic trends, which may not be accounted for in the model.
+## Model Limitation  
+**Limited data:**  
+- Utilizing only 4 years of historical data might not capture long-term trends and patterns that could significantly influence stock prices.
+  
+**Overfitting risk:**  
+- Polynomial regression may lead to overfitting due to its sensitivity and small fluctuations in the data.
+  
+**Limited input features:**  
+- Relying solely on close price, volume, and date might not encompass all relevant factors impacting stock performance.
+  
+**Market complexity:**  
+- The stock market is influenced by multifaceted factors, including geopolitical events, macroeconomic and microeconomic trends, which may not be accounted for in the model.  
 
 ## Challenges
 - Integrating the machine learning model with Google Cloud and Google Sheets posed initial challenges.
@@ -142,31 +150,31 @@ The stock market is influenced by multifaceted factors, including geopolitical e
 
 ## Learning
 **Web Scraping Mastery:**  
-Attained a high level of competence in web scraping techniques, enabling efficient and reliable data acquisition from online sources, notably exemplified by NIFTY50 stock price data extraction.
+- Attained a high level of competence in web scraping techniques, enabling efficient and reliable data acquisition from online sources, notably exemplified by NIFTY50 stock price data extraction.
 
 **Data Preprocessing Expertise:**  
-Cultivated strong skills in data cleaning and preprocessing, ensuring the data's integrity, consistency, and suitability for analysis and prediction. 
+- Cultivated strong skills in data cleaning and preprocessing, ensuring the data's integrity, consistency, and suitability for analysis and prediction. 
 
 **Machine Learning Integration:**  
-Successfully integrated machine learning models with Google Sheets, showcasing the ability to bridge the gap between data analysis and real-world applications, particularly in the context of stock price prediction.
+- Successfully integrated machine learning models with Google Sheets, showcasing the ability to bridge the gap between data analysis and real-world applications, particularly in the context of stock price prediction.
 
 **Insightful Data Analysis:**  
-Acquired the capability to employ various analytical tools and methodologies to derive valuable insights from complex datasets, facilitating informed decision-making processes.
+- Acquired the capability to employ various analytical tools and methodologies to derive valuable insights from complex datasets, facilitating informed decision-making processes.
 
 **Problem-Solving Aptitude:**  
-Applied data-driven insights and machine learning models to formulate pragmatic solutions to real-world challenges, exemplified by predicting NIFTY50 stock prices for future investment decisions.
+- Applied data-driven insights and machine learning models to formulate pragmatic solutions to real-world challenges, exemplified by predicting NIFTY50 stock prices for future investment decisions.
 
 **Interactive Webpage Creation:**  
-Developed proficiency in creating user-friendly web interfaces and interactive web pages, enhancing user engagement and facilitating data presentation in a user-friendly manner.
+- Developed proficiency in creating user-friendly web interfaces and interactive web pages, enhancing user engagement and facilitating data presentation in a user-friendly manner.
 
 **Client Communication Skills:**  
-Strengthened the ability to effectively communicate with clients, addressing their queries, and tailoring data-driven solutions to meet their specific needs, thereby fostering strong client relationships.
+- Strengthened the ability to effectively communicate with clients, addressing their queries, and tailoring data-driven solutions to meet their specific needs, thereby fostering strong client relationships.
 
 **Project Management Competency:**  
-Demonstrated project management skills by effectively coordinating various tasks, from data acquisition and preprocessing to model integration and web development, ensuring project success and timeliness.
+- Demonstrated project management skills by effectively coordinating various tasks, from data acquisition and preprocessing to model integration and web development, ensuring project success and timeliness.
 
 **Continuous Learning Mindset:**  
-Embraced a growth-oriented mindset, actively seeking out new techniques, tools, and technologies to stay at the forefront of data science and web development, thereby ensuring the project's ongoing relevance and effectiveness.
+- Embraced a growth-oriented mindset, actively seeking out new techniques, tools, and technologies to stay at the forefront of data science and web development, thereby ensuring the project's ongoing relevance and effectiveness.
 
 These learnings not only highlight our project's accomplishments but also underscore our growth and development as a data scientist and web developer, showcasing our ability to tackle complex challenges and deliver practical solutions.
 
