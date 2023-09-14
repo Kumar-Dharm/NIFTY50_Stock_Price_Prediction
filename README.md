@@ -6,6 +6,15 @@ Users can input their stock preferences, quantities, buying and selling dates, a
 Whether predicting future prices or using historical data, the model calculates the portfolio's returns, streamlining the process through integration with Google Sheets. 
 This project provides a powerful tool for investors to make informed decisions and analyze their investments effectively.
 
+## Folder Structure
+| Files | Description |
+|-------| ------------|
+| **NIFTY50_Stocks_Data** | This folder includes raw datasets, as well as the merged data used for model creation and analysis. |
+| **NIFTY50_Stocks_Gsheet** | This folder houses all files related to Google Sheets integration, including the model and datasets. |
+| **NIFTY50_Stocks_Webpage** |  This folder contains a Python file for integrating the model with Webpage using streamlit. |
+| **NIFTY50_Web-Scraping** |  "Web_Scraping" folder comprises an IPython Notebook (IPYNB) file for web scraping purposes. |
+| **README.md** | "README.md" serves as the project's informational documentation. |
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Objectives](#objectives)
@@ -49,7 +58,6 @@ This project provides a powerful tool for investors to make informed decisions a
 - Nifty50 significantly influences investor sentiment, guiding investment decisions and portfolio strategies.
 - The index reflects market trends, helping investors gauge the overall performance and direction of the stock market.
 
-
 ## Project Plan
 ![Project_flow](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/6d74fff4-43b5-45ee-8b61-853ad6cca3aa)
 
@@ -58,6 +66,9 @@ This project provides a powerful tool for investors to make informed decisions a
 **Web Scraping:**  
 - Data sourced exclusively from official and reputable websites, including "https://in.investing.com/" and "https://www.nseindia.com/".
 - Four years of NIFTY50 stock information extracted meticulously to ensure dataset reliability and credibility.
+
+**Uncleaned Data**  
+![Uncleaned_data](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/f50ad713-c281-4015-a5ad-7ccbc5f28088)
 
 **Null and Noise Handling:** 
 - Thorough assessment conducted to identify and address null values in the dataset.
@@ -75,6 +86,9 @@ This project provides a powerful tool for investors to make informed decisions a
 - Aggregated and organized NIFTY-50 stock data by stock names for easy data filtration and retrieval.
 - Enables precise selection and extraction of data relevant to users' preference of stock for predicting profit or loss based on specific buying and selling dates.
 
+**Cleaned Data**  
+![Cleaned_data](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/2015eeae-e866-4589-b8a8-a63253da8194)
+
 By executing these preprocessing steps, the dataset was refined, cleaned, and made ready for further analysis, establishing a solid foundation for accurate prediction.
 
 ## Model Building
@@ -85,8 +99,22 @@ By executing these preprocessing steps, the dataset was refined, cleaned, and ma
 - It offers a user-friendly interface for inputting stock details and obtaining predictions.
 - This project showcases the application of Artificial Intelligence and Machine Learning in real-world financial analysis.
 
-
 ## Google Sheet Integration
+<pre><code>
+# Importing Dataset
+all_data=pd.read_excel('D:/Data Analyst Course/Project_Nifty50/NIFTY50_Stocks_data.xlsx')
+
+# Setting parameters
+scope = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
+credentials = ServiceAccountCredentials.from_json_keyfile_name('chromatic-pride-392908-ccf371b70a0f.json', scope)
+client = gspread.authorize(credentials)
+
+sheet_key = '1-biUonUrbRltqeXIadCUyGpHItCDvljh4JuukYqEODk'
+sheet = client.open_by_key(sheet_key)
+
+worksheet = sheet.get_worksheet(0)
+</code></pre>
+
 ![Google_sheet](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/8a9510cc-a764-4ef4-a42f-3add49d1e7a8)
 
 - Integrated our machine learning model directly into Google Sheets for effortless stock analysis.
@@ -142,7 +170,6 @@ By executing these preprocessing steps, the dataset was refined, cleaned, and ma
 - Coordinating frontend and backend development for seamless user experience was a complex task.
 - Overcoming hurdles in data handling and processing to deliver accurate predictions to users.
 
-
 ## Conclusion  
 * Our team successfully developed a Google sheet and also web-based machine learning model utilizing polynomial regression to predict profit/loss in Nifty50 stocks. 
 * Users can input stock details, quantity, buying, and selling dates to get predictions for his/her portfolio either he/she will be in profit/loss. 
@@ -177,6 +204,5 @@ By executing these preprocessing steps, the dataset was refined, cleaned, and ma
 - Embraced a growth-oriented mindset, actively seeking out new techniques, tools, and technologies to stay at the forefront of data science and web development, thereby ensuring the project's ongoing relevance and effectiveness.
 
 These learnings not only highlight our project's accomplishments but also underscore our growth and development as a data scientist and web developer, showcasing our ability to tackle complex challenges and deliver practical solutions.
-
 
 |---------------------------------------------------------------------------------------------------------------------------|
