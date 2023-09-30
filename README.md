@@ -27,8 +27,8 @@ This project provides a powerful tool for investors to make informed decisions a
 - [Future Plan](#future-plan)
 - [Model Limitation](#model-limitation)
 - [Challenges](#challenges)
-- [Conclusion](#conclusion)
 - [Learning](#learning)
+- [Conclusion](#conclusion)
 
 ## Introduction  
 - As an investment advisor the aim of this project was to predict future prices of Nifty50 stocks using advanced machine learning algorithms
@@ -170,11 +170,6 @@ worksheet = sheet.get_worksheet(0)
 - Coordinating frontend and backend development for seamless user experience was a complex task.
 - Overcoming hurdles in data handling and processing to deliver accurate predictions to users.
 
-## Conclusion  
-* Our team successfully developed a Google sheet and also web-based machine learning model utilizing polynomial regression to predict profit/loss in Nifty50 stocks. 
-* Users can input stock details, quantity, buying, and selling dates to get predictions for his/her portfolio either he/she will be in profit/loss. 
-* This project demonstrates our collaborative efforts in applying AI for real-world financial analysis and decision-making.
-
 ## Learning
 **Web Scraping Mastery:**  
 - Attained a high level of competence in web scraping techniques, enabling efficient and reliable data acquisition from online sources, notably exemplified by NIFTY50 stock price data extraction.
@@ -204,5 +199,10 @@ worksheet = sheet.get_worksheet(0)
 - Embraced a growth-oriented mindset, actively seeking out new techniques, tools, and technologies to stay at the forefront of data science and web development, thereby ensuring the project's ongoing relevance and effectiveness.
 
 These learnings not only highlight our project's accomplishments but also underscore our growth and development as a data scientist and web developer, showcasing our ability to tackle complex challenges and deliver practical solutions.
+
+## Conclusion  
+* Our team successfully developed a Google sheet and also web-based machine learning model utilizing polynomial regression to predict profit/loss in Nifty50 stocks. 
+* Users can input stock details, quantity, buying, and selling dates to get predictions for his/her portfolio either he/she will be in profit/loss. 
+* This project demonstrates our collaborative efforts in applying AI for real-world financial analysis and decision-making.
 
 |---------------------------------------------------------------------------------------------------------------------------|
