@@ -51,6 +51,14 @@ This project provides a powerful tool for investors to make informed decisions a
 * Emphasize Real-world Applications
 * Future Plans
 
+**Problem Statement:**
+- To develop a script to scrape NIFTY-50 stock data for the past 4 years.
+- To train stock price prediction models for each NIFTY-50 stock.
+- To develop logic for calculating returns using predicted or historical prices.
+- To facilitate input and output in a Google Sheet for user convenience.
+- To create an attractive front-end offering essential portfolio statistics.
+- To provide users with a holistic tool for stock predictions and portfolio analysis.
+
 ## Importance of Nifty50
 ![Nifty50_stocks_img](https://github.com/Kumar-Dharm/Image_Gallery/assets/132021299/fd8c7727-00ca-4608-a98d-f11c334ecc8b)
 - Nifty50 is India's benchmark stock market index, representing the performance of the top 50 companies in the country
